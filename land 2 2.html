@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, orientation=portrait">
+
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel=icon type=image/png sizes=192x192 href="/img/android-chrome-192x192.png">
+
+    <title>Sophia 🦄 OnlyFans </title>
+  </head>
+
+  <style>
+
+.post-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.centered-pic {
+ position: absolute;
+  top:  2.6%;
+  right: 3%;
+  text-align:left;
+  z-index: 3;
+}
+
+.centered-pic img{
+width: 35px;
+height: 35px;
+z-index: 3;
+transform: scaleY(-1);
+opacity: 0.75;
+
+}
+
+
+ .centered-vid {
+position: absolute;
+  top: 2.6%;
+  right: 3%;
+  text-align:left;
+z-index: 3;
+}
+
+
+.centered-button {
+position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+  text-align:left;
+width: 52px;
+height: 52px;
+z-index: 3;
+}
+
+
+.centered-button img {
+width: 55px;
+height: 55px;
+opacity: 0.5;
+}
+
+.centered-vid img{
+width: 35px;
+height: 35px;
+opacity: 0.8;
+}
+
+.time {
+position: absolute; 
+top: 1%; 
+right: 49px;  
+z-index: 999;
+font-family: 'bold', Arial, sans-serif;
+  color: black;
+  font-size: 13px;
+ white-space: nowrap; /* Предотвращает перенос текста на новую строку */
+  text-transform: uppercase; /* Делает все буквы заглавными */
+ /* Делает текст жирным */
+  line-height: 1.3; /* Увеличивает расстояние между строками */
+ background-color: rgba(255, 255, 255, 0.5); /* Полупрозрачный белый фон */
+  padding: 5.42px 7px;
+  border-radius: 4px; /* Делает углы фона закругленными */
+  opacity: 0.9; /* Уменьшает прозрачность текста */
+}
+
+.tip {
+position: absolute; 
+top: 1%; 
+right: 49px; 
+z-index: 999;
+font-family: 'bold', Arial, sans-serif;
+  color: black;
+  font-size: 13px;
+ white-space: nowrap; /* Предотвращает перенос текста на новую строку */
+  text-transform: uppercase; /* Делает все буквы заглавными */
+ /* Делает текст жирным */
+  line-height: 1.3; /* Увеличивает расстояние между строками */
+ background-color: rgba(255, 255, 255, 0.5); /* Полупрозрачный белый фон */
+  padding: 4.5px 7px;
+  border-radius: 4px; /* Делает углы фона закругленными */
+  opacity: 0.9; /* Уменьшает прозрачность текста */
+}
+
+.centered-text2 {
+ font-family: 'bold', Arial, sans-serif;
+position: absolute;
+  top: 35%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+  text-align:left;
+ z-index: 999;
+  color: black;
+  font-size: 17px;
+ white-space: nowrap;
+  text-transform: uppercase;
+  line-height: 1.3;
+ background-color: rgba(255, 255, 255, 0.5); 
+ padding: 10px;
+  border-radius: 4px;
+  opacity: 0.9;
+}
+
+.centered-text {
+ font-family: 'bold', Arial, sans-serif;
+position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+  text-align:left;
+ z-index: 2;
+  color: black;
+  font-size: 17px;
+ white-space: nowrap;
+  text-transform: uppercase;
+  line-height: 1.3;
+ background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 4px;
+  opacity: 0.9;
+}
+
+
+
+    @font-face {
+      font-family: normal;
+      src: url('img/normal.ttf');
+    }
+    
+    @font-face {
+      font-family: bold;
+      src: url('img/bold.ttf');
+    }
+    
+    @font-face {
+      font-family: bold2;
+      src: url('img/bold2.otf');
+    }
+    
+    body {
+      max-width: 465px;
+      width: 100%;
+      font-family: 'normal', Arial, sans-serif;
+      background-color: white;
+      margin: 0 auto;
+    }
+    
+    .profile-header {
+      position: relative;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .profile-header img {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      width: 98%;
+      height: 163px;
+      object-fit: cover;
+      pointer-events: none;
+    }
+    
+    .profile-avatar img {
+      width: 95px;
+      height: 95px;
+      border-radius: 50%;
+      position: absolute;
+      top: 110px;
+      left: 20px;
+      border: 3px solid white;
+      object-fit: cover;
+      pointer-events: none;
+    }
+    
+    .follow-btn {
+      position: absolute;
+      font-size: 14px;
+      margin-top: 2px;
+      text-align: center;
+      right: 5px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 25px;
+      background: #01AFF0;
+      line-height: 1;
+      color: white;
+      font-weight: bold;
+      animation: pulse 1.5s infinite; /* Применение анимации pulse на протяжении 2 секунд, бесконечно */
+    }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+    
+    .user-info {
+      position: relative;
+      top: 0;
+      left: 0;
+      margin: 0px;
+      padding-left: 20px;
+    }
+    
+    .username {
+      font-family: 'bold', Arial, sans-serif;
+      font-size: 19px;
+      color: #343A40;
+      margin-top: 40px;
+    }
+    
+    .handle {
+      font-family: 'normal', Arial, sans-serif;
+      font-size: 15px;
+      color: #989FA6;
+      margin-top: -2px;
+    }
+    
+    .username img {
+      pointer-events: none;
+      width: 23px;
+      height: 23px;
+      vertical-align: middle;
+      margin-bottom: 2px;
+      margin-left: 5px;
+    }
+    
+    .username2 img {
+      pointer-events: none;
+      width: 18px;
+      height: 18px;
+      vertical-align: middle;
+      margin-bottom: 2px;
+      margin-left: 5px;
+    }
+    
+    .post-stats {
+      position: relative;
+      pointer-events: none;
+      margin-top: 4px;
+    }
+    
+    .stat {
+      font-size: 15px;
+      font-family: 'bold', Arial, sans-serif;
+      color: #343A40;
+      margin-right: 10px;
+      letter-spacing: 0.4px;
+    }
+    
+    .post-stats .stat:nth-child(1) img {
+      width: 13.5px;
+      height: 13.5px;
+      margin-bottom: 2px;
+      vertical-align: middle;
+    }
+    
+    .post-stats .stat:nth-child(2) img {
+      width: 18px;
+      height: 18px;
+      margin-bottom: 4px;
+      vertical-align: middle;
+    }
+    
+    .post-stats .stat:nth-child(3) img {
+      width: 16px;
+      height: 16px;
+      margin-bottom: 4px;
+      margin-left: 1px;
+      vertical-align: middle;
+    }
+    
+    .post-stats .stat:nth-child(4) img {
+      width: 18px;
+      height: 18px;
+      margin-left: 5px;
+      margin-bottom: 3px;
+      vertical-align: middle;
+    }
+    
+    .main {
+      font-family: 'normal', Arial, sans-serif;
+      font-size: 15.5px;
+      color: #757A80;
+      text-align: left;
+      width: 92%;
+      margin-top: -13px;
+    }
+    
+    .more {
+      display: block;
+      text-align: left;
+      font-size: 14.5px;
+      margin-top: -5px;
+      font-family: 'normal', Arial, sans-serif;
+      color: #01AFF0;
+      text-decoration: none;
+     margin-bottom: 18px;
+    }
+    
+    .more-text {
+      display: none;
+      margin-top: -15px;
+    }
+    
+    .single-grid .post {
+      pointer-events: none;
+      grid-column: span 3;
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 133.33%;
+      margin-bottom: 30px;
+      margin-top: 100px;
+    }
+    
+    .single-grid .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .line1 {
+     max-width: 400px;
+      position: absolute;
+      width: 100%;
+      height: 1.2px;
+      background: #D8D8D8;
+      margin-top: -1.5px;
+      z-index: 1;
+    }
+    
+    .line3 {
+      width: 100%;
+      height: 15px;
+      background: #F8F8F8;
+     
+     
+    }
+    
+    .line2 {
+      max-width: 500px;
+      position: relative;
+      width: 100%;
+      height: 1px;
+      background: #D8D8D8;
+     
+    }
+    
+    .container-wrapper {
+     margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+     
+    }
+    
+    .container {
+      width: calc(50% - 0px);
+      border: 0px solid black;
+      height: 38px;
+      text-align: center;
+      font-family: 'bold', Arial, sans-serif;
+      color: #343A40;
+      font-size: 16px;
+      position: relative;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+    
+    .container::after {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      width: 0;
+      border-bottom: 2px solid #01AFF0;
+      opacity: 0;
+      transition: opacity 1s;
+      z-index: 2;
+    }
+    
+    .container.clicked::after {
+      width: 100%;
+      opacity: 1;
+    }
+    
+    .clicked {
+      color: #01AFF0;
+    }
+    
+    #btn:disabled:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 14px;
+      left: 0;
+      top: 0;
+      background: linear-gradient(to right, transparent 50.0%, rgba(255, 255, 255, .15) 50.0%);
+      background-size: 200% 100%;
+      animation: loading 5s linear infinite;
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    #dialog img {
+
+position: absolute;
+      width: 19px;
+      opacity: 0.5;
+      height: 19px;
+      border: none;
+      margin-left: 110px;
+       margin-top: -8.5px;
+     
+     
+
+
+
+}
+    #dialogContainer {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 300px;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, .79);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+      opacity: 0;
+      animation: fadeIn 0.5s ease-out forwards;
+    }
+    
+    #dialog {
+      margin: 0 auto;
+      height: 120px;
+      width: 235px;
+      background: rgba(255, 255, 255, .96);
+      padding: 15px 20px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 4px 3px rgba(35, 35, 35, .7);
+    }
+    
+    #closeBtn {
+    font-size: 16px;
+      text-align: center;
+      padding: 10px 40px;
+      border: none;
+      border-radius: 25px;
+      background: #01AFF0;
+      line-height: 1;
+      color: white;
+      font-weight: bold;
+      margin: 0 auto;
+    }
+    
+    #dialog p {
+      font-family: 'normal', Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+    
+    #modalContainer {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 100px;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, .79);
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      opacity: 0;
+      animation: fadeIn 0.5s ease-out forwards;
+    }
+    
+    #modal {
+      position: relative;
+      margin: 0 auto;
+      height: auto;
+      width: 70%;
+      max-width: 260px;
+      background: rgba(255, 255, 255, .96);
+      padding: 30px 20px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 4px 3px rgba(35, 35, 35, .7);
+    }
+    
+    #signup {
+      font-size: 16px;
+      text-align: center;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 25px;
+      background: #01AFF0;
+      line-height: 1;
+      color: white;
+      font-weight: bold;
+      margin: 0 auto;
+    }
+    
+    #modal p {
+      font-family: 'normal', Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+      margin-bottom: 25px;
+      margin-top: 10px;
+    }
+
+
+    
+    #modal > img:nth-child(1) {
+      position: absolute;
+      width: 20px;
+      opacity: 0.5;
+      height: 20px;
+      border: none;
+      top: 8.5px;
+      right: 10px;
+    }
+    
+    #modal > img:nth-child(2) {
+      width: 70%;
+      height: auto;
+      margin-top: 22px;
+      margin-right: 55px;
+    }
+    
+    .grid-container {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2px;
+      padding: 2px;
+    }
+    
+    .post {
+      pointer-events: none;
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 133.33%;
+    }
+    
+    .post img {
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .post-container {
+      box-sizing: border-box;
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 0 10px;
+      overflow: hidden;
+    }
+    
+    .post-container .top-left {
+      position: relative;
+      top: 15px;
+      left: 10px;
+    }
+    
+    .post-container .top-left img {
+      pointer-events: none;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+    }
+    
+    .post-container .top-right {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-family: 'normal', Arial, sans-serif;
+      font-size: 14px;
+      color: #888;
+    }
+    
+    .post-container .main-text {
+      position: relative;
+      font-family: 'normal', Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      margin-left: 5px;
+    }
+    
+    .post-container .stat-text {
+      font-size: 15px;
+      color: #495057;
+      position: relative;
+      font-family: 'normal', Arial, sans-serif;
+      margin-bottom: 10px;
+      margin-left: 5px;
+    }
+    
+    .post-container .center {
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+      margin-top: 0;
+      display: flex;
+    }
+    
+    .post-container .center img {
+      pointer-events: none;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+    
+    .post-container .bottom-left {
+      position: relative;
+      width: 99%;
+      margin-left: 5px;
+      margin-bottom: 15px;
+    }
+    
+    .bottom-left img:nth-child(1) {
+      pointer-events: none;
+      margin-right: 10px;
+      width: 26px;
+      height: 26px;
+      margin-bottom: -1px;
+    }
+    
+    .bottom-left img:nth-child(2) {
+      pointer-events: none;
+      margin-right: 8px;
+      width: 34px;
+      height: 34px;
+      margin-bottom: -3.5px;
+    }
+    
+    .bottom-left img:nth-child(3) {
+      pointer-events: none;
+      opacity: 0.8;
+      position: absolute;
+      right: 5px;
+      bottom: 8px;
+      width: 27px;
+      height: 27px;
+      margin-top: 2px;
+    }
+    
+    .username2 {
+      font-family: 'bold', Arial, sans-serif;
+      font-size: 15.5px;
+      color: #343A40;
+      position: absolute;
+      top: 21px;
+      left: 85px;
+    }
+    
+    .media {
+      margin-top: 2px;
+    }
+  </style>
+
+  <body>
+
+    <div class="profile-header"><img src="img/header.jpeg">
+      <div class="profile-avatar"> <img src="img/avatar.webp"> </div>
+
+      <button class="follow-btn" onclick="openModal()"> FOLLOW<span style="padding: 0 13px;">•</span>FREE </button>
+    </div>
+    </div>
+
+    <div class="user-info">
+      <div class="username"> Sophia 🦄<img src="img/verify.webp" alt="verify"></div>
+
+      <div class="handle"> @save.baby<span style="margin: 0 7px;">•</span>Available now </div>
+
+      <div class="post-stats">
+        <span class="stat">15.3K <img src="img/likes.webp" alt="Icon1"></span>
+        <span class="stat">680 <img src="img/followers.webp" alt="Icon2"></span>
+        <span class="stat">120 <img src="img/photos.webp" alt="Icon3"></span>
+        <span class="stat">37<img src="img/videos.webp" alt="Icon4"></span>
+      </div>
+
+      <div class="main">
+        <p>  DM and video call only for 16+ ( from 7 PM )<br>Sexting - Daily posts - Free profile.
+          <p class="more-text" style="display: none;"> <br> I'm in Atlanta now📍, hit me up on DMs here or on Instagram for personal meetups 🔞 🍌<br> <br>Just so you know, I'm really good at sucking dick 😍 and I love it when there's hot cum on my tongue 👅 💦
+          </p> <a href="#" class="more">More info</a>
+      </div>
+    </div>
+
+    <div class="line2"></div>
+    <div class="line3"></div>
+
+    <div class="container-wrapper">
+      <div class="container clicked" onclick="toggleStyle(this)">
+        162 POSTS
+      </div>
+      <div class="container" onclick="toggleStyle(this)">
+        157 MEDIA
+      </div>
+    </div>
+    <div class="line1"></div>
+
+<div class="media">
+        <div class="grid-container" id="imageGrid">
+            <!-- Images will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+
+<script>
+    const imageGrid = document.getElementById('imageGrid');
+    const totalImages = 99;
+    const imagesPerBatch = 3; // Укажите количество изображений для загрузки за раз
+    let loadedImages = 0;
+
+    // Создаем наблюдателя для lazy loading
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const imgElement = entry.target;
+                imgElement.src = imgElement.dataset.src; // Загрузка изображения
+                imgElement.removeAttribute('data-src'); // Удаляем атрибут data-src
+                observer.unobserve(imgElement); // Перестаём наблюдать за элементом после загрузки
+
+                // Загружаем дополнительные изображения
+                loadMoreImages();
+            }
+        });
+    }, { rootMargin: "100px 0px", threshold: 0.1 });
+
+    function loadMoreImages() {
+        const end = Math.min(loadedImages + imagesPerBatch, totalImages);
+        for (let i = loadedImages + 1; i <= end; i++) {
+            const imgDiv = document.createElement('div');
+            imgDiv.className = 'post';
+
+            const imgElement = document.createElement('img');
+            imgElement.dataset.src = `img2/${i}.JPG`; // Используем data-src вместо src
+            imgElement.alt = ``;
+            imgElement.style = 'width: 100%; height: auto;'; // Стиль для корректного отображения
+
+            imgDiv.appendChild(imgElement);
+            imageGrid.appendChild(imgDiv);
+
+            observer.observe(imgElement); // Начинаем наблюдение за изображением
+        }
+        loadedImages = end;
+    }
+
+    // Инициализируем начальную загрузку изображений
+    loadMoreImages();
+</script>
+
+<!--<script>
+    const imageGrid = document.getElementById('imageGrid');
+    const totalImages = 99;
+
+    // Создаем наблюдателя для lazy loading
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const imgElement = entry.target;
+                imgElement.src = imgElement.dataset.src; // Загрузка изображения
+                imgElement.removeAttribute('data-src'); // Удаляем атрибут data-src
+                observer.unobserve(imgElement); // Перестаём наблюдать за элементом после загрузки
+            }
+        });
+    }, { rootMargin: "100px 0px", threshold: 0.1 });
+
+    for (let i = 1; i <= totalImages; i++) {
+        const imgDiv = document.createElement('div');
+        imgDiv.className = 'post';
+
+        const imgElement = document.createElement('img');
+        imgElement.dataset.src = `img2/${i}.JPG`; // Используем data-src вместо src
+        imgElement.alt = ``;
+        imgElement.style = 'width: 100%; height: auto;'; // Стиль для корректного отображения
+
+        imgDiv.appendChild(imgElement);
+        imageGrid.appendChild(imgDiv);
+
+        observer.observe(imgElement); // Начинаем наблюдение за изображением
+    }
+</script>
+
+
+
+
+<!--   <script>
+        const imageGrid = document.getElementById('imageGrid');
+        const totalImages = 104;
+
+        for (let i = 1; i <= totalImages; i++) {
+            const imgDiv = document.createElement('div');
+            imgDiv.className = 'post';
+            
+            const imgElement = document.createElement('img');
+            imgElement.src = `img2/${i}.JPG`;
+            imgElement.alt = `Image ${i}`;
+            
+            imgDiv.appendChild(imgElement);
+            imageGrid.appendChild(imgDiv);
+        }
+    </script>-->
+
+     <div class="feed">
+
+<div id="posts"></div>
+
+<script>
+        const postContainer = document.getElementById('posts');
+        const totalPosts = 99;
+        const today = new Date();
+        const batchSize = 2; // Количество постов, загружаемых за один раз
+
+        // Ваш список предложений
+        const sentences = [
+            "i wish it's your cock im sucking rn😘😈💦💦", 
+"Fuck me in any position that you want, babe. I'm ready for your cock right now.👅💦", 
+"i want you to touch me…everywhere! 👅💦", 
+"I'm getting bored. lets have some fun, you down babe?😉💦", 
+"do you wanna get tangled under the sheets and do some naughty deeds? 🤤👅", 
+"Make me mоаn іn еxсіtеmеnt!💦😋", 
+"get on your knees and do what ever you want with my pussy uhm..😜😘", 
+"are you just going to keep me waiting? Come on beep me up!😈🤔", 
+"Why don't you start getting naughty with me? 🔥", 
+"can you take this off for me?🫦😉😉", 
+"watch me get a bit playful this time, you naughty boy. 😉", 
+"could you send me a DM and let me surprise you?🫦", 
+"Lemme give you a wonderful day, here's a sneak peek of my plump ass😉😋", 
+"hey, you might want to grab this tits. just saying. 😉", 
+"sure, i could give you a little peek.", 
+"wanna rub my ass and leave your hand print?😉😉", 
+"grab this ass as tight as you can! 🥰", 
+"can i bounce on that d all night? 🔥", 
+"ill take it off for you, are you ready😈🤔", 
+"come snuggle up with me 🥰 we're gonna be very busy tonight 😈", 
+"i'll show you a naughty side that'll keep you begging for more.", 
+"alone here.. missing you and your hard dick!😘", 
+"out, but your cock is all i can think about😘", 
+"got my eyes on your cock wherever😉", 
+"your cock's all that's missing😘", 
+"lookin' pretty while feelin' horny😉",
+"let me make u feel like the king of my pussy😘", 
+"let's make it extra hot😘", 
+"what r ur dirty thoughts?😘", 
+"i'm gonna rock ur cock 😘", 
+"let's do this thing where u fuck me and i fuck u 😘", 
+"play with my boobies ;)", 
+"making ur cock hard with my curves😉", 
+"my boobies, stealing hearts effortlessly.😉", 
+"the world's a hornier place with me around.🥳", 
+"my stare has the power to make ur cock hard😉", 
+"just casually feeling myself in front of the mirror 🥰", 
+"i think i need a help on something here, wanna offer a helping hand? 😊", 
+"these cheeks are so soft you'd never want to let go", 
+"i'm alone right now. are you thinking what i'm thinking?", 
+"i can help you relax. wanna know how?", 
+"i love teasing you with these booty---your favorite thing.", 
+"what if i play a little bit to put you in the mood?", 
+"what would you do if you're here next to me and i'm shaking these boobies for you? 😉", 
+"what's the naughtiest thing you want to do to me?", 
+"i'd be the perfect sexy playmate for you 😉", 
+"are you prepared for this sexy body i have?", 
+"are you just gonna stare? you better touch me already 😏", 
+"i'm sure you want to slide that cock between these tits so badddd! 😏", 
+"i know these tits will make you go crazy 😏", 
+"wanna feel each other's warmth for tonight? 🔥", 
+"my favorite part is when u beg for me to give it",
+"i wish it's your cock im sucking rn😘😈💦💦", 
+"Fuck me in any position that you want, babe. I'm ready for your cock right now.👅💦", 
+"i want you to touch me…everywhere! 👅💦", 
+"I'm getting bored. lets have some fun, you down babe?😉💦", 
+"do you wanna get tangled under the sheets and do some naughty deeds? 🤤👅", 
+"Make me mоаn іn еxсіtеmеnt!💦😋", 
+"get on your knees and do what ever you want with my pussy uhm..😜😘", 
+"are you just going to keep me waiting? Come on beep me up!😈🤔", 
+"Why don't you start getting naughty with me? 🔥", 
+"can you take this off for me?🫦😉😉", 
+"watch me get a bit playful this time, you naughty boy. 😉", 
+"could you send me a DM and let me surprise you?🫦", 
+"Lemme give you a wonderful day, here's a sneak peek of my plump ass😉😋", 
+"hey, you might want to grab this tits. just saying. 😉", 
+"sure, i could give you a little peek.", 
+"wanna rub my ass and leave your hand print?😉😉", 
+"grab this ass as tight as you can! 🥰", 
+"can i bounce on that d all night? 🔥", 
+"ill take it off for you, are you ready😈🤔", 
+"come snuggle up with me 🥰 we're gonna be very busy tonight 😈", 
+"i'll show you a naughty side that'll keep you begging for more.", 
+"alone here.. missing you and your hard dick!😘", 
+"out, but your cock is all i can think about😘", 
+"got my eyes on your cock wherever😉", 
+"your cock's all that's missing😘", 
+"lookin' pretty while feelin' horny😉",
+"let me make u feel like the king of my pussy😘", 
+"let's make it extra hot😘", 
+"what r ur dirty thoughts?😘", 
+"i'm gonna rock ur cock 😘", 
+"let's do this thing where u fuck me and i fuck u 😘", 
+"play with my boobies ;)", 
+"making ur cock hard with my curves😉", 
+"my boobies, stealing hearts effortlessly.😉", 
+"the world's a hornier place with me around.🥳", 
+"my stare has the power to make ur cock hard😉", 
+"just casually feeling myself in front of the mirror 🥰", 
+"i think i need a help on something here, wanna offer a helping hand? 😊", 
+"these cheeks are so soft you'd never want to let go", 
+"i'm alone right now. are you thinking what i'm thinking?", 
+"i can help you relax. wanna know how?", 
+"i love teasing you with these booty---your favorite thing.", 
+"what if i play a little bit to put you in the mood?", 
+"what would you do if you're here next to me and i'm shaking these boobies for you? 😉", 
+"what's the naughtiest thing you want to do to me?", 
+"i'd be the perfect sexy playmate for you 😉", 
+"are you prepared for this sexy body i have?", 
+"are you just gonna stare? you better touch me already 😏", 
+"i'm sure you want to slide that cock between these tits so badddd! 😏", 
+"i know these tits will make you go crazy 😏", 
+"wanna feel each other's warmth for tonight? 🔥", 
+"my favorite part is when u beg for me to give it"
+        ];
+
+        // Функция для генерации случайного числа в заданном диапазоне
+        function getRandomNumber(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        // Функция для генерации времени в формате m:ss
+        function getRandomTime() {
+            const minutes = '0';
+            const seconds = getRandomNumber(22, 59).toString().padStart(2, '0');
+            return `${minutes}:${seconds}`;
+        }
+
+        // Функция для получения даты в формате "MMM D"
+        function formatDateToMMMDD(date) {
+            const options = { month: 'short', day: 'numeric' };
+            return date.toLocaleDateString('en-US', options);
+        }
+
+        let picCounter = 0;
+        let nextVidAt = getRandomNumber(1, 4);
+
+        // Переменные для рандомного изменения метки времени
+        let postsWithSameLabel = getRandomNumber(1, 3);
+        let currentDayGroup = 0;
+        let postsInCurrentGroup = 0;
+        let loadedPosts = 0;
+
+        // Функция для генерации и добавления постов
+        function loadPosts() {
+            for (let i = 0; i < batchSize && loadedPosts < totalPosts; i++, loadedPosts++) {
+                const time = getRandomTime();
+                const likes = getRandomNumber(320, 721);
+                const comments = getRandomNumber(16, 58);
+                const imageIndex = (loadedPosts % 100) + 1; // Индекс изображения от 1 до 100
+
+                // Определяем метку времени на основе текущей группы и количества постов в группе
+                if (postsInCurrentGroup >= postsWithSameLabel) {
+                    currentDayGroup++;
+                    postsWithSameLabel = getRandomNumber(1, 3); // Генерируем новое число постов для следующей группы
+                    postsInCurrentGroup = 0;
+                }
+
+                let timeLabel = '';
+                if (currentDayGroup === 0) {
+                    timeLabel = "Yesterday";
+                } else if (currentDayGroup <= 5) {
+                    timeLabel = `${currentDayGroup + 1} days ago`;
+                } else {
+                    const dateForPost = new Date(today);
+                    dateForPost.setDate(today.getDate() - (currentDayGroup + 1));
+                    timeLabel = formatDateToMMMDD(dateForPost);
+                }
+
+                postsInCurrentGroup++;
+
+                // Выбор типа контента: video или picture
+                let contentHTML = '';
+                if (loadedPosts === 0) {
+                    // Первый пост без centered-vid и centered-pic, только одно изображение
+                    contentHTML = `
+                        <div class="center" onclick="openDialog()">
+                            <img class="lazy" data-src="img2/${imageIndex}.JPG" alt="Your Image">
+                        </div>
+                    `;
+                } else if (loadedPosts === 1 || picCounter === nextVidAt) {
+                    // Второй пост и видео посты
+                    contentHTML = `
+                        <div class="centered-vid"><img class="lazy" data-src="img/vid-ico.webp"> </div>
+                        <p class="time">${time}</p> 
+                        <div class="centered-button"> <img class="lazy" data-src="img/play.webp"> </div>
+                        <div class="centered-text2"> FOLLOW TO UNLOCK </div>
+                        <div class="center" onclick="openDialog()">
+                            <img class="lazy" data-src="img2/${imageIndex}.JPG" alt="Your Image">
+                        </div>
+                    `;
+                    picCounter = 0;
+                    nextVidAt = getRandomNumber(1, 4);
+                } else {
+                    // Добавляем picture content
+                    const totalPages = getRandomNumber(2, 13); // Генерируем число страниц от 3 до 15
+                    contentHTML = `
+                        <div class="centered-pic"><img class="lazy" data-src="img/photo-ico.png"> </div>
+                        <p class="tip">1<span style="margin: 0 1px;">/</span>${totalPages}</p>
+                        <div class="centered-text"> FOLLOW TO UNLOCK </div>
+                        <div class="center" onclick="openDialog()">
+                            <img class="lazy" data-src="img2/${imageIndex}.JPG" alt="Your Image">
+                        </div>
+                    `;
+                    picCounter++;
+                }
+
+                const postHTML = `
+                    <div class="post-container">
+                        <div class="top-left">
+                            <img class="lazy" data-src="img/avatar.webp" alt="Your Image">
+                        </div>
+                        <div class="username2" style="line-height: 1.2;">
+                            Sophia 🦄<img class="lazy" data-src="img/verify.webp" alt="verify">
+                            <br/> <span style="font-family: 'normal', Arial, sans-serif; font-size: 14.5px; color: #989FA6;">@save.baby</span>
+                        </div>
+                        <div class="top-right">
+                            ${timeLabel}
+                        </div>
+                        <div class="main-text">
+                            ${sentences[loadedPosts]}
+                        </div>
+                        <div class="post-content" onclick="openDialog()">
+                            ${contentHTML}
+                        </div>
+                        <div class="bottom-left">
+                            <img class="lazy" data-src="img/like.webp" alt="Your Image">
+                            <img class="lazy" data-src="img/com.webp" alt="Your Image">
+                            <img class="lazy" data-src="img/mark.webp" alt="Your Image">
+                        </div>
+                        <div class="stat-text">
+                            <span style="font-size: 15px; font-family: 'bold', Arial, sans-serif; color: #343A40; letter-spacing: 0.4px;">${likes}</span> likes<span style="padding: 0 9px;">•</span><span style="font-size: 15px; font-family: 'bold', Arial, sans-serif; color: #343A40; letter-spacing: 0.4px;">${comments}</span> comments
+                        </div>
+                    </div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                `;
+
+                postContainer.innerHTML += postHTML;
+            }
+
+            // Инициализация lazy loading для новых изображений
+            initLazyLoading();
+        }
+
+        // Функция инициализации lazy loading
+        function initLazyLoading() {
+            const lazyImages = document.querySelectorAll('img.lazy');
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.remove('lazy');
+                        observer.unobserve(img);
+                    }
+                });
+            }, options);
+
+            lazyImages.forEach(img => {
+                observer.observe(img);
+            });
+        }
+
+        // Обработчик события прокрутки для подгрузки новых постов
+        window.addEventListener('scroll', () => {
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 500) {
+                loadPosts();
+            }
+        });
+
+        // Начальная загрузка постов
+        loadPosts();
+    </script>
+
+
+
+<!--<script>
+    const postContainer = document.getElementById('posts');
+    const totalPosts = 100;
+    const today = new Date();
+    const batchSize = 10; // Количество постов, загружаемых за один раз
+
+    // Функция для генерации случайного числа в заданном диапазоне
+    function getRandomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    // Функция для генерации времени в формате m:ss
+    function getRandomTime() {
+        const minutes = '0';
+        const seconds = getRandomNumber(22, 59).toString().padStart(2, '0');
+        return `${minutes}:${seconds}`;
+    }
+
+    // Функция для получения даты в формате "MMM D"
+    function formatDateToMMMDD(date) {
+        const options = { month: 'short', day: 'numeric' };
+        return date.toLocaleDateString('en-US', options);
+    }
+
+    let picCounter = 0;
+    let nextVidAt = getRandomNumber(1, 4);
+
+    // Переменные для рандомного изменения метки времени
+    let postsWithSameLabel = getRandomNumber(1, 3);
+    let currentDayGroup = 0;
+    let postsInCurrentGroup = 0;
+    let loadedPosts = 0;
+
+    // Функция для генерации и добавления постов
+    function loadPosts() {
+        for (let i = 0; i < batchSize && loadedPosts < totalPosts; i++, loadedPosts++) {
+            const time = getRandomTime();
+            const likes = getRandomNumber(320, 721);
+            const comments = getRandomNumber(16, 58);
+            const imageIndex = (loadedPosts % 100) + 1; // Индекс изображения от 1 до 100
+
+            // Определяем метку времени на основе текущей группы и количества постов в группе
+            if (postsInCurrentGroup >= postsWithSameLabel) {
+                currentDayGroup++;
+                postsWithSameLabel = getRandomNumber(1, 3); // Генерируем новое число постов для следующей группы
+                postsInCurrentGroup = 0;
+            }
+
+            let timeLabel = '';
+            if (currentDayGroup === 0) {
+                timeLabel = "Yesterday";
+            } else if (currentDayGroup <= 5) {
+                timeLabel = `${currentDayGroup + 1} days ago`;
+            } else {
+                const dateForPost = new Date(today);
+                dateForPost.setDate(today.getDate() - (currentDayGroup + 1));
+                timeLabel = formatDateToMMMDD(dateForPost);
+            }
+
+            postsInCurrentGroup++;
+
+            // Выбор типа контента: video или picture
+            let contentHTML = '';
+            if (loadedPosts === 0) {
+                // Первый пост без centered-vid и centered-pic, только одно изображение
+                contentHTML = `
+                    <div class="center" onclick="openDialog()">
+                        <img class="lazy" data-src="img2/${imageIndex}.JPG" alt="Your Image">
+                    </div>
+                `;
+            } else if (loadedPosts === 1 || picCounter === nextVidAt) {
+                // Второй пост и видео посты
+                contentHTML = `
+                    <div class="centered-vid"><img class="lazy" data-src="img/vid-ico.webp"> </div>
+                    <p class="time">${time}</p> 
+                    <div class="centered-button"> <img class="lazy" data-src="img/play.webp"> </div>
+                    <div class="centered-text2"> FOLLOW TO UNLOCK </div>
+                    <div class="center" onclick="openDialog()">
+                        <img class="lazy" data-src="img2/${imageIndex}.JPG" alt="Your Image">
+                    </div>
+                `;
+                picCounter = 0;
+                nextVidAt = getRandomNumber(1, 4);
+            } else {
+                // Добавляем picture content
+                const totalPages = getRandomNumber(2, 13); // Генерируем число страниц от 3 до 15
+                contentHTML = `
+                    <div class="centered-pic"><img class="lazy" data-src="img/photo-ico.png"> </div>
+                    <p class="tip">1<span style="margin: 0 1px;">/</span>${totalPages}</p>
+                    <div class="centered-text"> FOLLOW TO UNLOCK </div>
+                    <div class="center" onclick="openDialog()">
+                        <img class="lazy" data-src="img2/${imageIndex}.JPG" alt="Your Image">
+                    </div>
+                `;
+                picCounter++;
+            }
+
+            const postHTML = `
+                <div class="post-container">
+                    <div class="top-left">
+                        <img class="lazy" data-src="img/avatar.webp" alt="Your Image">
+                    </div>
+                    <div class="username2" style="line-height: 1.2;">
+                        Sophia 🦄<img class="lazy" data-src="img/verify.webp" alt="verify">
+                        <br/> <span style="font-family: 'normal', Arial, sans-serif; font-size: 14.5px; color: #989FA6;">@save.baby</span>
+                    </div>
+                    <div class="top-right">
+                        ${timeLabel}
+                    </div>
+                    <div class="main-text">
+                        text${loadedPosts + 1}
+                    </div>
+                    <div class="post-content" onclick="openDialog()">
+                        ${contentHTML}
+                    </div>
+                    <div class="bottom-left">
+                        <img class="lazy" data-src="img/like.webp" alt="Your Image">
+                        <img class="lazy" data-src="img/com.webp" alt="Your Image">
+                        <img class="lazy" data-src="img/mark.webp" alt="Your Image">
+                    </div>
+                    <div class="stat-text">
+                        <span style="font-size: 15px; font-family: 'bold', Arial, sans-serif; color: #343A40; letter-spacing: 0.4px;">${likes}</span> likes<span style="padding: 0 9px;">•</span><span style="font-size: 15px; font-family: 'bold', Arial, sans-serif; color: #343A40; letter-spacing: 0.4px;">${comments}</span> comments
+                    </div>
+                </div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            `;
+
+            postContainer.innerHTML += postHTML;
+        }
+
+        // Инициализация lazy loading для новых изображений
+        initLazyLoading();
+    }
+
+    // Функция инициализации lazy loading
+    function initLazyLoading() {
+        const lazyImages = document.querySelectorAll('img.lazy');
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.src = img.dataset.src;
+                    img.classList.remove('lazy');
+                    observer.unobserve(img);
+                }
+            });
+        }, options);
+
+        lazyImages.forEach(img => {
+            observer.observe(img);
+        });
+    }
+
+    // Обработчик события прокрутки для подгрузки новых постов
+    window.addEventListener('scroll', () => {
+        if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 500) {
+            loadPosts();
+        }
+    });
+
+    // Начальная загрузка постов
+    loadPosts();
+
+</script>
+
+
+<!--<script>
+    const postContainer = document.getElementById('posts');
+    const totalPosts = 100;
+    const today = new Date();
+
+    // Функция для генерации случайного числа в заданном диапазоне
+    function getRandomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    // Функция для генерации времени в формате m:ss
+    function getRandomTime() {
+        const minutes = '0';
+        const seconds = getRandomNumber(22, 59).toString().padStart(2, '0');
+        return `${minutes}:${seconds}`;
+    }
+
+    // Функция для получения даты в формате "MMM D"
+    function formatDateToMMMDD(date) {
+        const options = { month: 'short', day: 'numeric' };
+        return date.toLocaleDateString('en-US', options);
+    }
+
+    let picCounter = 0;
+    let nextVidAt = getRandomNumber(1, 4);
+
+    // Переменные для рандомного изменения метки времени
+    let postsWithSameLabel = getRandomNumber(1, 3);
+    let currentDayGroup = 0;
+    let postsInCurrentGroup = 0;
+
+    for (let i = 0; i < totalPosts; i++) {
+        const time = getRandomTime();
+        const likes = getRandomNumber(320, 721);
+        const comments = getRandomNumber(16, 58);
+        const imageIndex = (i % 100) + 1; // Индекс изображения от 1 до 100
+
+        // Определяем метку времени на основе текущей группы и количества постов в группе
+        if (postsInCurrentGroup >= postsWithSameLabel) {
+            currentDayGroup++;
+            postsWithSameLabel = getRandomNumber(1, 3); // Генерируем новое число постов для следующей группы
+            postsInCurrentGroup = 0;
+        }
+
+        let timeLabel = '';
+        if (currentDayGroup === 0) {
+            timeLabel = "Yesterday";
+        } else if (currentDayGroup <= 5) {
+            timeLabel = `${currentDayGroup + 1} days ago`;
+        } else {
+            const dateForPost = new Date(today);
+            dateForPost.setDate(today.getDate() - (currentDayGroup + 1));
+            timeLabel = formatDateToMMMDD(dateForPost);
+        }
+
+        postsInCurrentGroup++;
+
+        // Выбор типа контента: video или picture
+        let contentHTML = '';
+        if (i === 0) {
+            // Первый пост без centered-vid и centered-pic, только одно изображение
+            contentHTML = `
+                <div class="center" onclick="openDialog()">
+                    <img src="img2/${imageIndex}.JPG" alt="Your Image">
+                </div>
+            `;
+        } else if (i === 1 || picCounter === nextVidAt) {
+            // Второй пост и видео посты
+            contentHTML = `
+                <div class="centered-vid"><img src="img/vid-ico.webp"> </div>
+                <p class="time">${time}</p> 
+                <div class="centered-button"> <img src="img/play.webp"> </div>
+                <div class="centered-text2"> FOLLOW TO UNLOCK </div>
+                <div class="center" onclick="openDialog()">
+                    <img src="img2/${imageIndex}.JPG" alt="Your Image">
+                </div>
+            `;
+            picCounter = 0;
+            nextVidAt = getRandomNumber(1, 4);
+        } else {
+            // Добавляем picture content
+            const totalPages = getRandomNumber(2, 13); // Генерируем число страниц от 3 до 15
+            contentHTML = `
+                <div class="centered-pic"><img src="img/photo-ico.png"> </div>
+                <p class="tip">1<span style="margin: 0 1px;">/</span>${totalPages}</p>
+                <div class="centered-text"> FOLLOW TO UNLOCK </div>
+                <div class="center" onclick="openDialog()">
+                    <img src="img2/${imageIndex}.JPG" alt="Your Image">
+                </div>
+            `;
+            picCounter++;
+        }
+
+        const postHTML = `
+            <div class="post-container">
+                <div class="top-left">
+                    <img src="img/avatar.webp" alt="Your Image">
+                </div>
+                <div class="username2" style="line-height: 1.2;">
+                    Sophia 🦄<img src="img/verify.webp" alt="verify">
+                    <br/> <span style="font-family: 'normal', Arial, sans-serif; font-size: 14.5px; color: #989FA6;">@save.baby</span>
+                </div>
+                <div class="top-right">
+                    ${timeLabel}
+                </div>
+                <div class="main-text">
+                    text${i + 1}
+                </div>
+                <div class="post-content" onclick="openDialog()">
+                    ${contentHTML}
+                </div>
+                <div class="bottom-left">
+                    <img src="img/like.webp" alt="Your Image">
+                    <img src="img/com.webp" alt="Your Image">
+                    <img src="img/mark.webp" alt="Your Image">
+                </div>
+                <div class="stat-text">
+                    <span style="font-size: 15px; font-family: 'bold', Arial, sans-serif; color: #343A40; letter-spacing: 0.4px;">${likes}</span> likes<span style="padding: 0 9px;">•</span><span style="font-size: 15px; font-family: 'bold', Arial, sans-serif; color: #343A40; letter-spacing: 0.4px;">${comments}</span> comments
+                </div>
+            </div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        `;
+
+        postContainer.innerHTML += postHTML;
+    }
+</script>
+
+
+<!--<script>
+    const postContainer = document.getElementById('posts');
+    const totalPosts = 100;
+    const today = new Date();
+
+    // Функция для генерации случайного числа в заданном диапазоне
+    function getRandomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    // Функция для генерации времени в формате m:ss
+    function getRandomTime() {
+        const minutes = '0';
+        const seconds = getRandomNumber(22, 59).toString().padStart(2, '0');
+        return `${minutes}:${seconds}`;
+    }
+
+    // Функция для получения даты в формате "MMM D"
+    function formatDateToMMMDD(date) {
+        const options = { month: 'short', day: 'numeric' };
+        return date.toLocaleDateString('en-US', options);
+    }
+
+    let picCounter = 0;
+    let nextVidAt = getRandomNumber(1, 4);
+
+    // Переменные для рандомного изменения метки времени
+    let postsWithSameLabel = getRandomNumber(1, 3);
+    let currentDayGroup = 0;
+    let postsInCurrentGroup = 0;
+
+    for (let i = 0; i < totalPosts; i++) {
+        const time = getRandomTime();
+        const likes = getRandomNumber(320, 721);
+        const comments = getRandomNumber(16, 58);
+        const imageIndex = (i % 100) + 1; // Индекс изображения от 1 до 100
+
+        // Определяем метку времени на основе текущей группы и количества постов в группе
+        if (postsInCurrentGroup >= postsWithSameLabel) {
+            currentDayGroup++;
+            postsWithSameLabel = getRandomNumber(1, 3); // Генерируем новое число постов для следующей группы
+            postsInCurrentGroup = 0;
+        }
+
+        let timeLabel = '';
+        if (currentDayGroup === 0) {
+            timeLabel = "Yesterday";
+        } else if (currentDayGroup <= 5) {
+            timeLabel = `${currentDayGroup + 1} days ago`;
+        } else {
+            const dateForPost = new Date(today);
+            dateForPost.setDate(today.getDate() - (currentDayGroup + 1));
+            timeLabel = formatDateToMMMDD(dateForPost);
+        }
+
+        postsInCurrentGroup++;
+
+        // Выбор типа контента: video или picture
+        let contentHTML = '';
+        if (i === 0) {
+            // Первый пост без centered-vid и centered-pic, только одно изображение
+            contentHTML = `
+                <div class="center" onclick="openDialog()">
+                    <img src="img2/${imageIndex}.JPG" alt="Your Image">
+                </div>
+            `;
+        } else if (i === 1 || picCounter === nextVidAt) {
+            // Второй пост и видео посты
+            contentHTML = `
+                <div class="centered-vid"><img src="img/vid-ico.webp"> </div>
+                <p class="time">${time}</p> 
+                <div class="centered-button"> <img src="img/play.webp"> </div>
+                <div class="centered-text2"> FOLLOW TO UNLOCK </div>
+                <div class="center" onclick="openDialog()">
+                    <img src="img2/${imageIndex}.JPG" alt="Your Image">
+                </div>
+            `;
+            picCounter = 0;
+            nextVidAt = getRandomNumber(1, 4);
+        } else {
+            // Добавляем picture content
+            const totalPages = getRandomNumber(2, 13); // Генерируем число страниц от 3 до 15
+            contentHTML = `
+                <div class="centered-pic"><img src="img/photo-ico.png"> </div>
+                <p class="tip">1<span style="margin: 0 1px;">/</span>${totalPages}</p>
+                <div class="centered-text"> FOLLOW TO UNLOCK </div>
+                <div class="center" onclick="openDialog()">
+                    <img src="img2/${imageIndex}.JPG" alt="Your Image">
+                </div>
+            `;
+            picCounter++;
+        }
+
+        const postHTML = `
+            <div class="post-container">
+                <div class="top-left">
+                    <img src="img/avatar.webp" alt="Your Image">
+                </div>
+                <div class="username2" style="line-height: 1.2;">
+                    Sophia 🦄<img src="img/verify.webp" alt="verify">
+                    <br/> <span style="font-family: 'normal', Arial, sans-serif; font-size: 14.5px; color: #989FA6;">@save.baby</span>
+                </div>
+                <div class="top-right">
+                    ${timeLabel}
+                </div>
+                <div class="main-text">
+                    text${i + 1}
+                </div>
+                <div class="post-content" onclick="openDialog()">
+                    ${contentHTML}
+                </div>
+                <div class="bottom-left">
+                    <img src="img/like.webp" alt="Your Image">
+                    <img src="img/com.webp" alt="Your Image">
+                    <img src="img/mark.webp" alt="Your Image">
+                </div>
+                <div class="stat-text">
+                    <span style="font-size: 15px; font-family: 'bold', Arial, sans-serif; color: #343A40; letter-spacing: 0.4px;">${likes}</span> likes<span style="padding: 0 9px;">•</span><span style="font-size: 15px; font-family: 'bold', Arial, sans-serif; color: #343A40; letter-spacing: 0.4px;">${comments}</span> comments
+                </div>
+            </div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        `;
+
+        postContainer.innerHTML += postHTML;
+    }
+</script>
+
+
+
+ <!--  <script>
+
+        const postContainer = document.getElementById('posts');
+        const totalPosts = 100;
+        const today = new Date();
+
+        // Функция для генерации случайного числа в заданном диапазоне
+        function getRandomNumber(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        // Функция для генерации времени в формате m:ss
+        function getRandomTime() {
+            const minutes = '0';
+            const seconds = getRandomNumber(22, 59).toString().padStart(2, '0');
+            return `${minutes}:${seconds}`;
+        }
+
+        // Функция для получения даты в формате "MMM D"
+        function formatDateToMMMDD(date) {
+            const options = { month: 'short', day: 'numeric' };
+            return date.toLocaleDateString('en-US', options);
+        }
+
+        let picCounter = 0;
+        let nextVidAt = getRandomNumber(1, 4);
+
+        // Переменные для рандомного изменения метки времени
+        let postsWithSameLabel = getRandomNumber(1, 3);
+        let currentDayGroup = 0;
+        let postsInCurrentGroup = 0;
+
+        for (let i = 0; i < totalPosts; i++) {
+            const time = getRandomTime();
+            const likes = getRandomNumber(320, 721);
+            const comments = getRandomNumber(16, 58);
+            const imageIndex = (i % 100) + 1; // Индекс изображения от 1 до 100
+
+            // Определяем метку времени на основе текущей группы и количества постов в группе
+            if (postsInCurrentGroup >= postsWithSameLabel) {
+                currentDayGroup++;
+                postsWithSameLabel = getRandomNumber(1, 3); // Генерируем новое число постов для следующей группы
+                postsInCurrentGroup = 0;
+            }
+
+            let timeLabel = '';
+            if (currentDayGroup === 0) {
+                timeLabel = "Yesterday";
+            } else if (currentDayGroup <= 5) {
+                timeLabel = `${currentDayGroup + 1} days ago`;
+            } else {
+                const dateForPost = new Date(today);
+                dateForPost.setDate(today.getDate() - (currentDayGroup + 1));
+                timeLabel = formatDateToMMMDD(dateForPost);
+            }
+
+            postsInCurrentGroup++;
+
+            // Выбор типа контента: video или picture
+            let contentHTML = '';
+            if (picCounter === nextVidAt || i === 0) {
+                // Добавляем video content
+                contentHTML = `
+                    <div class="centered-vid"><img src="img/vid-ico.webp"> </div>
+                    <p class="time">${time}</p> 
+                    <div class="centered-button"> <img src="img/play.webp"> </div>
+                    <div class="centered-text2"> FOLLOW TO UNLOCK </div>
+                `;
+                picCounter = 0;
+                nextVidAt = getRandomNumber(1, 4);
+            } else {
+                // Добавляем picture content
+                const totalPages = getRandomNumber(2, 13); // Генерируем число страниц от 3 до 15
+                contentHTML = `
+                    <div class="centered-pic"><img src="img/photo-ico.png"> </div>
+                    <p class="tip">1<span style="margin: 0 1px;">/</span>${totalPages}</p>
+                    <div class="centered-text"> FOLLOW TO UNLOCK </div>
+                `;
+                picCounter++;
+            }
+
+            const postHTML = `
+                <div class="post-container">
+                    <div class="top-left">
+                        <img src="img/avatar.webp" alt="Your Image">
+                    </div>
+                    <div class="username2" style="line-height: 1.2;">
+                        Sophia 🦄<img src="img/verify.webp" alt="verify">
+                        <br/> <span style="font-family: 'normal', Arial, sans-serif; font-size: 14.5px; color: #989FA6;">@save.baby</span>
+                    </div>
+                    <div class="top-right">
+                        ${timeLabel}
+                    </div>
+                    <div class="main-text">
+                        text${i + 1}
+                    </div>
+                    <div class="post-content" onclick="openDialog()">
+                        ${contentHTML}
+                        <div class="center" onclick="openDialog()">
+                            <img src="img2/${imageIndex}.JPG" alt="Your Image">
+                        </div>
+                    </div>
+                    <div class="bottom-left">
+                        <img src="img/like.webp" alt="Your Image">
+                        <img src="img/com.webp" alt="Your Image">
+                        <img src="img/mark.webp" alt="Your Image">
+                    </div>
+                    <div class="stat-text">
+                        <span style="font-size: 15px; font-family: 'bold', Arial, sans-serif; color: #343A40; letter-spacing: 0.4px;">${likes}</span> likes<span style="padding: 0 9px;">•</span><span style="font-size: 15px; font-family: 'bold', Arial, sans-serif; color: #343A40; letter-spacing: 0.4px;">${comments}</span> comments
+                    </div>
+                </div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            `;
+
+            postContainer.innerHTML += postHTML;
+        }
+    </script>-->
+       
+    </div>
+
+    <div id="modalContainer">
+      <div id="modal">
+        <img src="img/cross.webp" alt="Close" id="closeButton" onclick="closeModal()">
+                <p>You need to create a profile to track both paid and free subscriptions and much more.
+          <p style="margin-top: -10px">Head to our new dating website
+            <br/>to get started 🎉</p>
+          <button id="signup" onclick="openLoader()">SIGN UP</button>
+      </div>
+    </div>
+
+    <div id="dialogContainer">
+      <div id="dialog">
+ <img src="img/cross.webp" alt="Close" id="closeButton" onclick="closeDialog()">
+        <p> Please free follow: @save.baby
+          <br/>to view all content on this profile!</p>
+        <button id="closeBtn" onclick="closeDialog()">OK</button>
+      </div>
+    </div>
+
+    <script>
+      function openDialog() {
+document.getElementById("dialogContainer").style.display = "block";
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var mediaDiv = document.querySelector('.media');
+    var feedDiv = document.querySelector('.feed');
+
+    var clickedContainer = document.querySelector('.container.clicked');
+
+    if (clickedContainer.textContent.includes('MEDIA')) {
+        mediaDiv.style.display = 'block';
+        feedDiv.style.display = 'none';
+    } else if (clickedContainer.textContent.includes('POSTS')) {
+        feedDiv.style.display = 'block';
+        mediaDiv.style.display = 'none';
+    }
+});
+
+function toggleStyle(clickedElement) {
+    var containers = document.querySelectorAll('.container');
+    containers.forEach(function(container) {
+        if(container !== clickedElement) {
+            container.classList.remove('clicked');
+        }
+    });
+    clickedElement.classList.toggle('clicked');
+
+    var mediaDiv = document.querySelector('.media');
+    var feedDiv = document.querySelector('.feed');
+
+    if (clickedElement.textContent.includes('MEDIA')) {
+        mediaDiv.style.display = 'block';
+        feedDiv.style.display = 'none';
+    } else if (clickedElement.textContent.includes('POSTS')) {
+        feedDiv.style.display = 'block';
+        mediaDiv.style.display = 'none'; 
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    var readMoreBtn = document.querySelector('.more');
+    var moreText = document.querySelector('.more-text');
+
+    readMoreBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        if (moreText.style.display === 'none') {
+            moreText.style.display = 'block';
+            readMoreBtn.textContent = 'Collapse info';
+        } else {
+            moreText.style.display = 'none';
+            readMoreBtn.textContent = 'More info';
+        }
+    });
+});
+
+document.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    var windowHeight = window.innerHeight;
+    var fullHeight = document.body.scrollHeight;
+
+    if (scrollPosition + windowHeight >= fullHeight) {
+        var dialogContainer = document.getElementById('dialogContainer');
+        dialogContainer.style.display = 'block';
+        scrollToTop();
+    }
+});
+
+function closeDialog() {
+    var dialogContainer = document.getElementById('dialogContainer');
+    dialogContainer.style.display = 'none';
+}
+
+
+    function openLoader() {
+        window.location.href = 'loader.html';
+    }
+
+    function closeModal() {
+        var modalContainer = document.getElementById('modalContainer');
+        modalContainer.style.display = 'none';
+    }
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+function openModal() {
+    document.getElementById("modalContainer").style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("modalContainer").style.display = "none";
+}
+
+ let touchstartX = 0;
+    let touchendX = 0;
+    const container = document.getElementById('swipeContainer');
+
+    container.addEventListener('touchstart', function(event) {
+      touchstartX = event.changedTouches[0].screenX;
+    }, false);
+
+    container.addEventListener('touchend', function(event) {
+      touchendX = event.changedTouches[0].screenX;
+      handleGesture();
+    }, false);
+
+    function handleGesture() {
+      if (touchendX < touchstartX) {
+        window.location.href = "land.html";
+      }
+    }
+
+    </script>
+
+  </body>
+
+</html>
